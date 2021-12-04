@@ -1,0 +1,36 @@
+
+
+/* the whole panel*/
+.panel {
+    -fx-background-image: url("night.jpeg");
+    -fx-background-position: center center;
+    -fx-background-size: cover;
+}
+
+/* when hovering instruction label*/
+.instructionLabelHover {
+    -fx-font-weight: bold;
+}
+
+/* mouse exits hover zone of label*/
+.instructionLabelNotHover {
+    -fx-font-weight: normal;
+}
+
+/* the big center label*/
+.welcomeMessageLabel {
+    -fx-font-size: 60;
+    -fx-text-fill: white;
+}
+
+/* the instruction label*/
+.instructionLabel {
+    -fx-font-size: 30;
+    -fx-text-fill: white;
+}
+
+/* the centred label at the bottom*/
+.movePanelsLabel {
+    -fx-font-size: 20;
+    -fx-text-fill: white;
+}

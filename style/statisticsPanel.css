@@ -1,0 +1,19 @@
+/* design for buttons*/
+.button{
+    -fx-padding: 127 20;
+    -fx-background-color: 
+        #c3c4c4,
+        linear-gradient(#d6d6d6 50%, white 100%),
+        radial-gradient(center 50% -20%, radius 200%, #e6e6e6 45%, rgba(230,230,230,0) 50%);
+}
+/* when hovered, sets color to gray*/
+.button:hover {
+    -fx-background-color: #d6d6d6;
+    -fx-scale-y: 1.0;
+}
+/* design for labels*/
+.label{
+    -fx-font-size: 20;
+    -fx-border-color: black;
+    -fx-border-width: 5 0 4 0
+}

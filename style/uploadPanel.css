@@ -1,0 +1,29 @@
+/*the sign in label*/
+.signInLabel{
+    -fx-padding: 0px 20px 0px 10px;
+    -fx-font-weight: bold;
+}
+
+/*the whole pane*/
+.mainPane{
+    -fx-padding: 30;
+    -fx-font-size: 15;
+    -font-family: sans-serif;
+    
+    
+}
+
+/*the guest login label*/
+.guest{
+    -fx-background-color: #348ceb;
+}
+
+/*the confirm label*/
+.confirm{
+    -fx-background-color: #6495ed;
+}
+
+/*the upload property label*/
+.upload{
+    -fx-background-color: #348ceb;
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="102.0" prefWidth="364.0" stylesheets="@style/listing-style.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <GridPane layoutX="222.0" layoutY="14.0" prefHeight="34.0" prefWidth="114.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="85.0" minWidth="10.0" prefWidth="56.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="54.0" minWidth="10.0" prefWidth="41.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label id="reviewsLabel" prefHeight="21.0" prefWidth="69.0" text="Reviews:" />
+            <Region id="reviewBox" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" />
+            <Label id="reviewNumber" fx:id="reviewsGUI" text="Label" GridPane.columnIndex="1" />
+         </children>
+      </GridPane>
+      <GridPane layoutX="14.0" layoutY="6.0" AnchorPane.leftAnchor="14.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="95.0" minWidth="10.0" prefWidth="65.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="144.0" minWidth="10.0" prefWidth="135.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="25.0" minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="37.0" minHeight="0.0" prefHeight="19.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="61.0" minHeight="10.0" prefHeight="51.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label id="hostLabel" text="Host:" />
+            <Label id="hostText" fx:id="hostGUI" text="Label" GridPane.columnIndex="1" />
+            <Label id="nightsLabel" text="Nights:" GridPane.rowIndex="1" />
+            <Label id="nightsText" fx:id="nightsGUI" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label id="price" fx:id="priceGUI" prefHeight="47.0" prefWidth="142.0" text="Label" GridPane.columnSpan="2" GridPane.rowIndex="2">
+               <padding>
+                  <Insets left="15.0" />
+               </padding>
+            </Label>
+         </children>
+      </GridPane>
+      <Button id="detailsButton" fx:id="showDescription" layoutX="255.0" layoutY="51.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="81.0" text="Quick View" />
+   </children>
+</AnchorPane>

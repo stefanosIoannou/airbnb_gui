@@ -1,0 +1,38 @@
+/* The main pane of the listing */
+#mainPane {
+	-fx-border-color:black;
+	-fx-border-width: 0 0 1 0;
+	-fx-background-color:white;
+}
+
+/* The host label, the nights label and the
+    reviews label */
+#hostLabel, #nightsLabel,#reviewsLabel {
+	-fx-font-size: 15px;
+	-fx-font-weight: bolder;
+}
+
+/* The price */
+#price {
+	-fx-font-size: 25px;
+	-fx-font-weight: bolder;
+	-font-family: sans-serif;
+}
+
+/* The region behind the number of reviews */
+#reviewBox {
+	-fx-background-color:#00245e;
+}
+
+/* The number of reviews number */
+#reviewNumber {
+	-fx-font-weight:bolder;
+	-fx-font-size:15px;
+	-fx-text-fill:white;
+}
+
+/* The QuickView Button */
+#detailsButton {
+    -fx-background-color:#348ceb;
+    -fx-text-fill:white;
+}

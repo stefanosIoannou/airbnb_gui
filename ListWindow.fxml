@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.stage.*?>
+
+<Stage fx:id="window" resizable="false" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <scene>
+      <Scene>
+         <BorderPane fx:id="mainPane" prefHeight="481.0">
+            <bottom>
+               <Pagination fx:id="pageSlider" pageCount="10" prefHeight="19.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+            </bottom>
+            <center>
+               <ScrollPane id="listings-area" fx:id="scrollablePane" hbarPolicy="NEVER" BorderPane.alignment="CENTER">
+                  <content>
+                     <VBox fx:id="content" />
+                  </content>
+               </ScrollPane>
+            </center>
+            <top>
+               <ButtonBar fx:id="dropDowns">
+                  <buttons>
+                     <ChoiceBox fx:id="sortType" />
+                     <ChoiceBox fx:id="sortBy" />
+                  </buttons>
+                  <BorderPane.margin>
+                     <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+                  </BorderPane.margin>
+               </ButtonBar>
+            </top>
+         </BorderPane>
+      </Scene>
+   </scene>
+</Stage>

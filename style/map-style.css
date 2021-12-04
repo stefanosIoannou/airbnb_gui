@@ -1,0 +1,30 @@
+/* The group containing all the boroughs */
+#map-region{
+		-fx-scale-x:60%;
+		-fx-scale-y:60%;
+}
+
+/* Set the hover effect of the boroughs */
+.regions:hover{
+    -fx-stroke:white;
+}
+
+/* Set the initial style of the boroughs */
+.regions{
+	-fx-fill:white;
+	-fx-stroke:black;
+	-fx-stroke-width:4;
+
+}
+
+/* Set the press on effect of the boroughs */
+.regions:pressed{
+    -fx-scale-x:60%;
+    -fx-scale-y:60%;
+}
+
+
+
+
+
+

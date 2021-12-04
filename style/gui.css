@@ -1,0 +1,43 @@
+
+
+
+/* The background of all panels*/
+.rootStyle {
+   -fx-background-color: white;
+}
+/*the top part of the main window containing dropdowns*/
+.hbox{
+    -fx-spacing: 7px;
+    -fx-padding: 10;
+}
+
+/*The panel on screen currently*/
+.centerPaneStyle {
+    -fx-border-color: black;
+    -fx-border-width: 1px 0px 1px 0px;
+    -fx-margin: 10px 0px 10px 0px;
+    
+}
+/*top left label indicating currently selected price*/
+.selectedPriceRange {
+    -fx-font-weight: bold;
+    -fx-padding: 10;
+
+
+}
+
+.noPriceLabel {
+    -fx-text-fill: red;
+}
+
+.topBottomPadding {
+    -fx-padding: 10px 0px 10px 0px;
+}
+
+.bottomPane {
+    -fx-padding: 10;
+}
+
+.topPane {
+
+}
